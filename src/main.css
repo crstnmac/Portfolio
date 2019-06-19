@@ -59,11 +59,11 @@
 }
 
 a {
-  @apply text-green-700 font-bold;
+  @apply text-purple-700 font-bold;
 }
 
 a:hover {
-  @apply text-green-800;
+  @apply text-purple-800;
 }
 
 nav .active {
@@ -95,7 +95,7 @@ nav .active {
 }
 
 .checkmark {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%2229%22%20height%3D%2229%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M4.427%2024.93A14.5%2014.5%200%201%201%2024.93%204.427c5.495%205.69%205.416%2014.733-.177%2020.326s-14.637%205.672-20.326.177z%22%20fill%3D%22%232E855A%22/%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M10.234%2012.803l3.67%203.253L20.766%2010%2023%2012l-9.096%208L8%2014.789l2.234-2z%22/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='29' height='29' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.427 24.93A14.5 14.5 0 1 1 24.93 4.427c5.495 5.69 5.416 14.733-.177 20.326s-14.637 5.672-20.326.177z' fill='%236b46c1'/%3E%3Cpath fill='%23FFF' d='M10.234 12.803l3.67 3.253L20.766 10 23 12l-9.096 8L8 14.789l2.234-2z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   @apply pl-10;
 }
