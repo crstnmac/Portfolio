@@ -17,7 +17,6 @@ module.exports = {
   siteName: 'Criston-Mascarenhas',
   siteDescription: 'A simple portfolio.',
   siteUrl: 'https://cristonkrizz.github.io',
-  pathPrefix:'/cristonkrizz.github.io',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
