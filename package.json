@@ -5,7 +5,7 @@
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-    "deploy": "gh-pages -b master -d dist"
+    "deploy": "gridsome build && gh-pages -d dist --repo 'https://github.com/crstnmac/crstnmac.github.io.git' -b master"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
