@@ -659,7 +659,7 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@fullhuman/postcss-purgecss@^1.2.0":
+"@fullhuman/postcss-purgecss@1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-1.2.0.tgz#a3207a0e1812f8b56fa49fba5796a1020f2756a8"
   integrity sha512-An05jbnZVUrX+VVNniaNQtOuo/S7tyQu5x86itXTF+7kfMaGxglFGykFX2KCt2hcbJijbvfCval9IkPO19V1KA==
@@ -683,7 +683,7 @@
     semver "^5.6.0"
     sort-package-json "^1.15.0"
 
-"@gridsome/plugin-sitemap@^0.2.1":
+"@gridsome/plugin-sitemap@0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@gridsome/plugin-sitemap/-/plugin-sitemap-0.2.1.tgz#1c19e361ad8747cf8a9f2c72daa1efbab14c55d4"
   integrity sha512-b0/cJggIGtsc1ctK5EP0lZt6oe1iKWevshSh62DuESySfSS57bIsTKWP25IOPt3N4Em96CF5EgOvu3WHXCWM8w==
@@ -692,7 +692,7 @@
     micromatch "^3.1.10"
     sitemap "^2.1.0"
 
-"@gridsome/source-filesystem@^0.5.0":
+"@gridsome/source-filesystem@0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@gridsome/source-filesystem/-/source-filesystem-0.5.0.tgz#7b88f5dcdde1014c6c7da5c5bcbca0e284101992"
   integrity sha512-gTtUw3jesCG/zsIQT1k555Bn+3HC/xK46R3747olTYThldzun31wAW+YHBCc2l8mAsFp++JkCxgxKGdy8yaJhg==
@@ -703,7 +703,7 @@
     lodash "^4.17.10"
     slash "^2.0.0"
 
-"@gridsome/transformer-remark@^0.3.2":
+"@gridsome/transformer-remark@0.3.2":
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/@gridsome/transformer-remark/-/transformer-remark-0.3.2.tgz#f4027da6c496ec5a2c2468bc595a9c311cb26c76"
   integrity sha512-OGZvYli8MiAdvs8CAOhaNRlEurEHWbJ3b27G5CMNMr9HsesOcKeh1TQoH/tdiInyT7OZz01anJTsRCZmUU1IjA==
@@ -1361,7 +1361,7 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
 
-axios@^0.19.0:
+axios@0.19.0:
   version "0.19.0"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.0.tgz#8e09bff3d9122e133f7b8101c8fbdd00ed3d2ab8"
   integrity sha512-1uvKqKQta3KBxIz14F2v06AEHZ/dIoeKfbTRkK1E5oqjDnuEerLmYTgJB5AiQZHJcljpg1TuRzdjDR06qNk0DQ==
@@ -3626,7 +3626,7 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gh-pages@^2.0.1:
+gh-pages@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/gh-pages/-/gh-pages-2.0.1.tgz#aefe47a43b8d9d2aa3130576b33fe95641e29a2f"
   integrity sha512-uFlk3bukljeiWKQ2XvPfjcSi/ou7IfoDf2p+Fj672saLAr8bnOdFVqI/JSgrSgInKpCg5BksxEwGUl++dbg8Dg==
@@ -3830,7 +3830,7 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
-gridsome-plugin-remark-shiki@^0.3.0:
+gridsome-plugin-remark-shiki@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/gridsome-plugin-remark-shiki/-/gridsome-plugin-remark-shiki-0.3.0.tgz#36e1a291b4a45ded418aade72ab75092906254b5"
   integrity sha512-W4RHQQknqIX4jKGhADKPqxxpPOEAqHlWOYmmupCv9bwgtyowWdPzi7OmVqUbOQU9ikcvPMrF07U9VLo74f7MTA==
@@ -3839,14 +3839,14 @@ gridsome-plugin-remark-shiki@^0.3.0:
     shiki-languages "^0.1.0"
     unist-util-visit "^1.4.0"
 
-gridsome-plugin-rss@^1.1.0:
+gridsome-plugin-rss@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/gridsome-plugin-rss/-/gridsome-plugin-rss-1.1.0.tgz#de8788ae3bac32911a7717709d82c7d6151b6ecf"
   integrity sha512-1Rx0Kx30Bs3z+Gge7Unf93UV32sU/k9j9Xzn8msiNXfH/eZ6BYK+Uw8RcC1GzfjZir2s9fbZuvkrfkhqqylc3g==
   dependencies:
     rss "^1.2.2"
 
-gridsome@^0.6.4:
+gridsome@0.6.4:
   version "0.6.4"
   resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.6.4.tgz#5389f9ab0a630b5cd4c49e66958e5d07eac1d6bc"
   integrity sha512-QmeltD2r/3dRn84v/+alFAdBRcKJpJDWlUIoj5gZrjtCujbIFtn/xzVUcMXP+UK928bmzbjipcH1LY7M005GiQ==
@@ -5045,7 +5045,7 @@ lodash.mergewith@^4.6.1:
   resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
   integrity sha512-eWw5r+PYICtEBgrBE5hhlT6aAa75f411bgDz/ZL2KZqYV03USvucsxcHUIlGTDTECs1eunpI7HOV7U+WLDvNdQ==
 
-lodash.pick@^4.4.0:
+lodash.pick@4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
   integrity sha1-UvBWEP/53tQiYRRB7R/BI6AwAbM=
@@ -8049,7 +8049,7 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-tailwindcss@^1.0.4:
+tailwindcss@1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.0.4.tgz#98f186c8142bfb292bcbfcb53b84df369f11ef91"
   integrity sha512-+1NNPW+U83k6DV/uUOnsfmX86Cfb8N87fiuN0cX0mEi2sZUpglLzZqlXtP8FD9Hlne5H1UhlS8tajz+F9SSxjA==
@@ -8713,7 +8713,7 @@ vm-browserify@0.0.4:
   version "4.0.1"
   resolved "https://github.com/octref/vscode-textmate#e65aabe2227febda7beaad31dd0fca1228c5ddf3"
 
-vue-fuse@^2.1.0:
+vue-fuse@2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/vue-fuse/-/vue-fuse-2.1.0.tgz#a8e785cbb80d216d99cf652f32d3cdad243a15df"
   integrity sha512-hx4QZkeIATmFlKyq6QSWcFFHPJC0vmsusnZP1GkBSEXh1eH7WV8Pde9O0XFvXWIzCH4Dr+Dox25EKu+iAy4bSg==
@@ -8751,7 +8751,7 @@ vue-router@^3.0.6:
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.6.tgz#2e4f0f9cbb0b96d0205ab2690cfe588935136ac3"
   integrity sha512-Ox0ciFLswtSGRTHYhGvx2L44sVbTPNS+uD2kRISuo8B39Y79rOo0Kw0hzupTmiVtftQYCZl87mwldhh2L9Aquw==
 
-vue-scrollto@^2.15.0:
+vue-scrollto@2.15.0:
   version "2.15.0"
   resolved "https://registry.yarnpkg.com/vue-scrollto/-/vue-scrollto-2.15.0.tgz#e6e4645dfd2efc0d960123f607c2ab448b81670a"
   integrity sha512-FmJncIrXvsqvyVAN55Trc2CQWVDyxuMgdQQp1Q9I9bhoEi7XXpvXXQonhbFBktzNggJf1rpfHpVqa8KLhPeePQ==
