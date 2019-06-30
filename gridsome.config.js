@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 module.exports = {
   siteName: 'Criston-Mascarenhas',
   siteDescription: 'A simple portfolio.',
-  siteUrl: 'https://cristonkrizz.github.io',
+  siteUrl: 'https://crstnmac.github.io',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
@@ -43,13 +43,13 @@ module.exports = {
         contentTypeName: 'Post',
         feedOptions: {
           title: 'Blog',
-          feed_url: 'https://cristonkrizz.github.io/rss.xml',
-          site_url: 'https://cristonkrizz.github.io/'
+          feed_url: 'https://crstnmac.github.io/rss.xml',
+          site_url: 'https://crstnmac.github.io/'
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.summary,
-          url: 'cristonkrizz.github.io' + node.path,
+          url: 'crstnmac.github.io' + node.path,
           author: 'Criston Mascarenhas',
           date: node.date
         }),
