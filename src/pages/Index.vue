@@ -33,12 +33,12 @@
 
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
-            <div>Glug Infinite</div>
+            <div> <a href="https://gluginfinite.github.io"  target="_blank" > Glug Infinite</a></div>
             <div class="text-lg text-gray-600">This is an official website for GLUG INFINITE, organization which was created under FSMK to promote usage of free and open-source software.
           </div>
           </li>
           <li class="checkmark mb-6">
-            <div>Job Board</div>
+            <div> <a href="https://github.com/crstnmac/dba"  target="_blank"> Job Board </a></div>
             <div class="text-lg text-gray-600">A simple Job Board to post and apply jobs.</div>
           </li>
         </ul>
@@ -47,7 +47,16 @@
 
     <div class="overflow-x-hidden border-gray-200 border-b">
       <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
+        <a href="https://docs.google.com/document/d/1tI2562iPaVNkYwktshri9xxMhqSZp00sp7ASihzAzRQ/edit?usp=sharing"  target="_blank" > <div class="cursor-pointer absolute right-0 py-4 lg:px-4">
+  <div class="p-2 bg-purple-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+    <span class="flex rounded-full bg-purple-500 uppercase px-2 py-1 text-xs font-bold mr-3">Download</span>
+    <span class="font-semibold mr-2 text-white text-left flex-auto">Resume</span>
+    <svg class="fill-current opacity-75 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+  </div>
+</div>
+ </a>
         <h2 class="font-bold mb-6" id="about">Get to know me:</h2>
+
 
         <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -56,7 +65,11 @@
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
           <div><g-image src="../../static/avatar.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
           <div class="flex-1 text-lg sm:text-xl ml-6">Cris here..!!.I am a full stack web developer and a Open-Source enthuasist.I like EDM. </div>
+        
+        
         </div>
+ 
+
 
       </div> <!-- end get-to-know me -->
     </div>
