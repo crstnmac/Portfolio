@@ -242,11 +242,13 @@
 
 <static-query>
 query {
-  metaData {
+  metadata {
     siteName
   }
 }
 </static-query>
+
+
 
 <script>
 import SearchInput from "../components/SearchInput";
