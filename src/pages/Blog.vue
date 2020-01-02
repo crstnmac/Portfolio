@@ -7,9 +7,9 @@
         class="post border-gray-400  mb-12 p-4"
       >
         <g-link :to="post.node.path" class="text-3xl font-bold">
-          <g-link :to="post.node.path" class="text-copy-primary">{{
+          {{
             post.node.title
-          }}</g-link>
+          }}
         </g-link>
         <div class="text-copy-secondary mb-4">
           <span>{{ post.node.date }}</span>
