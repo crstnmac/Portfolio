@@ -37,6 +37,24 @@ module.exports = {
       }
     },
     {
+      use: 'gridsome-plugin-pwa',
+      options: {
+          title: 'crstnmac.me',
+          startUrl: '/',
+          display: 'standalone',
+          statusBarStyle: 'default',
+          manifestPath: 'manifest.json',
+          serviceWorkerPath: 'service-worker.js',
+          cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
+          shortName: 'crstnmac',
+          themeColor: '#6b46c1',
+          backgroundColor: '#6b46c1',
+          icon: '/src/favicon.png', // must be provided
+          msTileImage: '/src/favicon.png',
+          msTileColor: '#6b46c1'
+      }
+  },
+    {
       use: 'gridsome-plugin-rss',
       options: {
         contentTypeName: 'Post',
@@ -63,7 +81,7 @@ module.exports = {
       options: {
         cacheTime: 600000, // default
       }
-    },
+    }
   ],
   templates: {
     Tag: '/tag/:id'
