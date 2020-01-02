@@ -37,6 +37,17 @@ module.exports = {
       }
     },
     {
+      use: "gridsome-plugin-manifest",
+      options: {
+          background_color: "#6b46c1",
+          icon_path: "./src/favicon.png",
+          name: "crstnmac.me",
+          short_name: "crstnmac",
+          theme_color: "#6b46c1",
+          lang: "en",
+      },
+  },
+    {
       use: 'gridsome-plugin-pwa',
       options: {
           title: 'crstnmac.me',
@@ -49,8 +60,8 @@ module.exports = {
           shortName: 'crstnmac',
           themeColor: '#6b46c1',
           backgroundColor: '#6b46c1',
-          icon: '/src/favicon.png', // must be provided
-          msTileImage: '/src/favicon.png',
+          icon: './src/favicon.png', // must be provided
+          msTileImage: './src/favicon.png',
           msTileColor: '#6b46c1'
       }
   },
