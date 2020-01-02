@@ -11,18 +11,16 @@ const pick = require('lodash.pick');
 const { pathPrefix } = require('./gridsome.config')
 
 
-module.exports = function (api, options) {
-  api.loadSource(store => {
+module.exports = function (api) {
+  api.loadSource(actions => {
     const cleanedPathPrefix = `${pathPrefix ? ['', ...pathPrefix.split('/').filter(dir=>dir.length)].join('/') : ''}`
-    store.addMetadata('pathPrefix', cleanedPathPrefix)
-
-
+    actions.addMetadata('pathPrefix', cleanedPathPrefix)
   })
 
-  api.beforeBuild(({ config, store }) => {
+  api.beforeBuild(({ actions }) => {
 
     // Generate an index file for Fuse to search Posts
-    const { collection } = store.getContentType('Post');
+    const { collection } = actions.addCollection('Post');
 
     const posts = collection.data.map(post => {
       return pick(post, ['title', 'path', 'summary']);
