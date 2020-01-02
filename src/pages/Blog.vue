@@ -1,13 +1,13 @@
 <template>
   <Layout>
-    <div class="container-inner mx-auto py-8">
+    <div class="container-inner mx-auto py-8 ">
       <h1 class=" text-4xl font-bold leading-tight py-4">Blog</h1>
     
     
       <div
         v-for="post in $page.posts.edges"
         :key="post.id"
-        class="post border rounded  border-gray-400  mb-12 p-4"
+        class="post rounded-lg neumorph  mb-12 p-4"
       >
         <g-link :to="post.node.path" class="text-3xl font-bold">
           {{

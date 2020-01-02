@@ -9,14 +9,16 @@
       >
         <div>
           <g-link v-if="theme === 'theme-light'" to="/">
-            <g-image src="../../static/logo.svg" class="w-40" alt="logo" />
+            <!-- <g-image src="../../static/logo.svg" class="w-40" alt="logo" /> -->
+            <p class="light-text text-4xl font-extrabold ">crstnmac.me</p>
           </g-link>
           <g-link v-else to="/">
-            <g-image
+            <!-- <g-image
               src="../../static/logo_dark_mode.svg"
               class="w-40"
               alt="logo"
-            />
+            /> -->
+            <p class="dark-text text-4xl font-extrabold" >crstnmac.me</p>
           </g-link>
         </div>
         <div class="block lg:hidden">
