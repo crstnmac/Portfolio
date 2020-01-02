@@ -1,10 +1,13 @@
 <template>
   <Layout>
-    <div class="container-inner mx-auto py-16">
+    <div class="container-inner mx-auto py-8">
+      <h1 class=" text-4xl font-bold leading-tight py-4">Blog</h1>
+    
+    
       <div
         v-for="post in $page.posts.edges"
         :key="post.id"
-        class="post border-gray-400  mb-12 p-4"
+        class="post border rounded  border-gray-400  mb-12 p-4"
       >
         <g-link :to="post.node.path" class="text-3xl font-bold">
           {{
@@ -17,9 +20,9 @@
           <span>{{ post.node.timeToRead }} min read</span>
         </div>
 
-        <!-- <div class="text-lg mb-4">
+        <div class="text-lg mb-4">
           {{ post.node.summary }}
-        </div> -->
+        </div>
 
         <!-- <div class="mb-8">
           <g-link :to="post.node.path" class="font-bold uppercase"

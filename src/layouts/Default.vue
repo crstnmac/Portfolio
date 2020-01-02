@@ -22,20 +22,19 @@
         <div class="block lg:hidden">
           <button
             @click="toggle"
-            class="flex items-center px-3 py-2 border rounded border-gray-500 hover:text-gray-600 hover:border-gray-600"
+            class="flex justify-center items-center bg-blue-500 border border-blue-500 h-10 px-5 rounded-full lg:hidden focus:outline-none"
             aria-label="icon"
           >
             <svg
-              class="current-color h-3 w-3"
-              viewBox="0 0 20 20"
+              class="fill-current text-white h-9 w-4" viewBox="0 0 32 32"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
-                fill="gray"
-              />
+               <path fill="gray" d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
+    
             </svg>
+
           </button>
+
         </div>
         <ul
           class="uppercase tracking-wide font-bold w-full block flex-grow lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
@@ -109,7 +108,7 @@
         class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8"
       >
         <div class="mb-8 lg:mb-0">
-          <div>Copyright 2019. All rights reserved.</div>
+          <div>Copyright {{ new Date().getFullYear() }}. All rights reserved.</div>
           <div>
             <a href="rss.xml" class="text-white hover:text-gray-400 font-normal"
               >RSS Feed</a
