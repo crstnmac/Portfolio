@@ -1,0 +1,15 @@
+{
+  "name": "crstnmac.me",
+  "short_name": "crstnmac",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#6b46c1",
+  "background_color": "#6b46c1",
+  "icons": [
+    {
+      "src": "assets/static/favicon.png",
+      "sizes": "572x572",
+      "type": "image/png"
+    }
+  ]
+}
