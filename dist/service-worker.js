@@ -39,7 +39,7 @@ self.__precacheManifest = [
   },
   {
     "url": "api-using-node-expressjs/index.html",
-    "revision": "55ad01003ea9ff386cf23e2c61e104fd"
+    "revision": "0be3a65136fb0afe6b42341dd8525f15"
   },
   {
     "url": "assets/css/0.styles.b0c95860.css",
@@ -51,7 +51,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/data/api-using-node-expressjs/index.json",
-    "revision": "94d52cd103845b5aa5155a75c6a19877"
+    "revision": "c656e5484e4dfcbdf6623388117eaf5e"
   },
   {
     "url": "assets/data/blog/index.json",
@@ -71,15 +71,15 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/data/tag/backend/index.json",
-    "revision": "7e26c66a3b22ff8183e0658efea6e980"
+    "revision": "1237ff86a0cbd5b288d5b7028a01dcf4"
   },
   {
     "url": "assets/data/tag/coding/index.json",
-    "revision": "f2e6fc94bffc627f143392f9944b0d26"
+    "revision": "0f086e5bfd25322888248612b6d53764"
   },
   {
     "url": "assets/data/tag/expressjs/index.json",
-    "revision": "e7fd81bd0ca11764680bf7d340c88157"
+    "revision": "cfff05a621ee17e1f007f395d3e45560"
   },
   {
     "url": "assets/data/tag/frontend/index.json",
@@ -87,7 +87,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/data/tag/nodejs/index.json",
-    "revision": "6361c370fc0cab9f52021f035de59202"
+    "revision": "33580c36012016249355ca124e862a0c"
   },
   {
     "url": "assets/data/tag/vue/index.json",
@@ -299,15 +299,15 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/backend/index.html",
-    "revision": "b452e4a01231d3204647a21aa2e49af0"
+    "revision": "0963c2d95d57fea95957a4eced75f56c"
   },
   {
     "url": "tag/coding/index.html",
-    "revision": "49df09bd5a04d439d3f5729beb468595"
+    "revision": "e69533329bebf2726a8afa173eea6f97"
   },
   {
     "url": "tag/expressjs/index.html",
-    "revision": "4970fd92cf3a2c2c7932208565fa06bb"
+    "revision": "ec12b1df60b6056fedb715d65803f437"
   },
   {
     "url": "tag/frontend/index.html",
@@ -315,7 +315,7 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/nodejs/index.html",
-    "revision": "c907530cf02a942776f4ba4b57322fbe"
+    "revision": "c2377fdb24bc2d254a9f89ebcc6aa641"
   },
   {
     "url": "tag/vue/index.html",
