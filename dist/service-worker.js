@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "38889ec8f3ea109dabc861ea8096967e"
+    "revision": "97e9bdbf5ba7f746034951ffe9c048c4"
   },
   {
     "url": "404.svg",
@@ -35,11 +35,11 @@ self.__precacheManifest = [
   },
   {
     "url": "404/index.html",
-    "revision": "38889ec8f3ea109dabc861ea8096967e"
+    "revision": "97e9bdbf5ba7f746034951ffe9c048c4"
   },
   {
     "url": "api-using-node-expressjs/index.html",
-    "revision": "127f2d72a9588105413260580689a8e3"
+    "revision": "bc5e660e330d87116ab8bbfd58bf6959"
   },
   {
     "url": "assets/css/0.styles.b0c95860.css",
@@ -47,67 +47,67 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/data/404/index.json",
-    "revision": "761194346763f1906c1c74780daca563"
+    "revision": "f321053a21ec0e7d15d8c049a5eb93e1"
   },
   {
     "url": "assets/data/api-using-node-expressjs/index.json",
-    "revision": "ca6fbb3ea4171526c0511a28d76ec91c"
+    "revision": "7d77e8156875a73ebc38d48b50774d91"
   },
   {
     "url": "assets/data/blog/index.json",
-    "revision": "0eabde882814a2adc9fedb9556aa6e23"
+    "revision": "d02b7fd4af9374ccc0b2b6b29cae089e"
   },
   {
     "url": "assets/data/how-to-port-from-vscode-to-vscodium/index.json",
-    "revision": "d68dc81ff7c622faa7474970f03c8f82"
+    "revision": "4062775038289dedba6d417941e4846f"
   },
   {
     "url": "assets/data/index.json",
-    "revision": "761194346763f1906c1c74780daca563"
+    "revision": "f321053a21ec0e7d15d8c049a5eb93e1"
   },
   {
     "url": "assets/data/introduction-to-gridsome/index.json",
-    "revision": "50ded083f236cb708e128702ba8f597d"
+    "revision": "d2120716d29d570edf37904b37b87e44"
   },
   {
     "url": "assets/data/success/index.json",
-    "revision": "761194346763f1906c1c74780daca563"
+    "revision": "f321053a21ec0e7d15d8c049a5eb93e1"
   },
   {
     "url": "assets/data/tag/backend/index.json",
-    "revision": "2b5e6fd758bba841edded4f1eae10941"
+    "revision": "a841363c0271bc3d62cfcfc428e17243"
   },
   {
     "url": "assets/data/tag/coding/index.json",
-    "revision": "f368aa2ac3d7062f00128d0612cf8795"
+    "revision": "f2912d50cb1feedc66c6bf7d2a194a54"
   },
   {
     "url": "assets/data/tag/expressjs/index.json",
-    "revision": "1192309c7cb7294dbc25b3dc7bb52d5e"
+    "revision": "fac723b5267ce0276063d34b374ed4cb"
   },
   {
     "url": "assets/data/tag/FOSS/index.json",
-    "revision": "78e277b97e1cdeef3459831e988aa492"
+    "revision": "2ab781a5613008d209c0540797d7d97f"
   },
   {
     "url": "assets/data/tag/Free Software/index.json",
-    "revision": "103833fb32694cc5bb149a08603b3f2f"
+    "revision": "96779e1d9989832d69e1a364f022da96"
   },
   {
     "url": "assets/data/tag/frontend/index.json",
-    "revision": "c388383c7a018e5a3f30cf215cda2bc3"
+    "revision": "7d07968db324b9ca800288e681feb669"
   },
   {
     "url": "assets/data/tag/nodejs/index.json",
-    "revision": "a63c1c97f0ac0f525129aee1676486a2"
+    "revision": "56d6fc72dc6d6091acbab06b19a1d927"
   },
   {
     "url": "assets/data/tag/VSCodium/index.json",
-    "revision": "132cf309a4a74d4689f06eba9465f791"
+    "revision": "9cd71cd1dedbbb122d32e854346bc91a"
   },
   {
     "url": "assets/data/tag/vue/index.json",
-    "revision": "0be56f4a03b1ddad06c34715b83b7aea"
+    "revision": "79df779732bf2e2ffcf6da2f96b747ab"
   },
   {
     "url": "assets/img/favicon-144.png",
@@ -134,32 +134,32 @@ self.__precacheManifest = [
     "revision": "68b17e2b1fb870af5a18d52c6286274f"
   },
   {
-    "url": "assets/js/app.5c3f2cdb.js",
-    "revision": "e8ffc3a8b8f6ecc31af3cc2dcf207bfa"
+    "url": "assets/js/app.cf9dd1c2.js",
+    "revision": "c0a68032e826e7d2f83cb05063b892b7"
   },
   {
-    "url": "assets/js/page--src--pages--404-vue.33a42154.js",
-    "revision": "92f6e0cfc455650c848267301f052e93"
+    "url": "assets/js/page--src--pages--404-vue.acd235f2.js",
+    "revision": "8fcb07a5c44bab60d47faba71c098734"
   },
   {
-    "url": "assets/js/page--src--pages--blog-vue.5f2035ae.js",
-    "revision": "bbc17247dadbf680956f5dfb15db47ce"
+    "url": "assets/js/page--src--pages--blog-vue.0efcf90d.js",
+    "revision": "0c4688860b1a8d7f993dc6032473f9a3"
   },
   {
-    "url": "assets/js/page--src--pages--index-vue.56ca865e.js",
-    "revision": "cd65d3bd2c1de15c44a04849edaeb538"
+    "url": "assets/js/page--src--pages--index-vue.c99177b4.js",
+    "revision": "1f921c726d1e4d7da0c888f7973141e6"
   },
   {
-    "url": "assets/js/page--src--pages--success-vue.635b70a1.js",
-    "revision": "df787088e381a811befd9f972b381a7f"
+    "url": "assets/js/page--src--pages--success-vue.229461c6.js",
+    "revision": "fbb44461555b90d28a03d940fa9c92b4"
   },
   {
-    "url": "assets/js/page--src--templates--post-vue.05f1d1bb.js",
-    "revision": "6fe2cc5ab234aaf7f3ddd69dd35b3de6"
+    "url": "assets/js/page--src--templates--post-vue.1ff04286.js",
+    "revision": "06fdfa1767eb2662bc55736eb88778f2"
   },
   {
-    "url": "assets/js/page--src--templates--tag-vue.ba4221e9.js",
-    "revision": "6ca7e234bb10d4dcd778f33af7ee5296"
+    "url": "assets/js/page--src--templates--tag-vue.c2ea1f59.js",
+    "revision": "517abf3077b2e9ac6f088f685894c607"
   },
   {
     "url": "assets/static/404.50d624b.6695af9986412e75985538255ca87866.svg",
@@ -279,7 +279,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "c4d8208b07f5c954a6214f8f15570107"
+    "revision": "c370c25e89c25fb4211a6a130a3ac62b"
   },
   {
     "url": "code_review.svg",
@@ -291,15 +291,15 @@ self.__precacheManifest = [
   },
   {
     "url": "how-to-port-from-vscode-to-vscodium/index.html",
-    "revision": "10518dbc3ad292c52dbc60ff7892d5aa"
+    "revision": "a2142c10f7c711b64f65bf25d473545c"
   },
   {
     "url": "index.html",
-    "revision": "12e54ba99ff0b78e1efccb5ac8d729d9"
+    "revision": "dd8b0b049906e2e9e2dd22c7c7c0d2ba"
   },
   {
     "url": "introduction-to-gridsome/index.html",
-    "revision": "8eccd8c0fd06d26d3d488778579e488f"
+    "revision": "e6f3659902407f1e95b067ad370386e8"
   },
   {
     "url": "logo_dark_mode.svg",
@@ -319,47 +319,47 @@ self.__precacheManifest = [
   },
   {
     "url": "search.json",
-    "revision": "a5c98a1b0a7cfe224de8815d2820eb7a"
+    "revision": "254dde9340560c0f210cb136ae9b61fb"
   },
   {
     "url": "success/index.html",
-    "revision": "99e954b091da10c002469bab8ca5fb92"
+    "revision": "8ee4a2e92cbcab5f1231951b3a85cedf"
   },
   {
     "url": "tag/backend/index.html",
-    "revision": "2d326928b52a0fc0339ad863431d89e7"
+    "revision": "92ed2052790daf21b7dacb042b5cf8d0"
   },
   {
     "url": "tag/coding/index.html",
-    "revision": "cf4b71d26c8d44d62288d32f3adb864a"
+    "revision": "fdc7cf2e6711b8d0e73b33a4073ee85c"
   },
   {
     "url": "tag/expressjs/index.html",
-    "revision": "c0a29184955853425e9a94c55bfd50b2"
+    "revision": "e5675ed1d9f55387d3bc807f5fa7c46e"
   },
   {
     "url": "tag/FOSS/index.html",
-    "revision": "05bcc0af72cc81f0bb8056706f3d26b0"
+    "revision": "e7f07a0569b1d1e9eec0d1aa9fcb8ae9"
   },
   {
     "url": "tag/Free Software/index.html",
-    "revision": "131e3f8b7ad21c2f0ebd9fe83397f943"
+    "revision": "6d590a27b23765c361fd3b3751dbdb25"
   },
   {
     "url": "tag/frontend/index.html",
-    "revision": "4a154241cf991d7682d1a85f721a1d70"
+    "revision": "0b7ec02799936728b520142f10782e5a"
   },
   {
     "url": "tag/nodejs/index.html",
-    "revision": "b7e4c0adbd35b8ee4f27c57a12793a9c"
+    "revision": "bcfc65fd5e10ea5f337047ae4b321fba"
   },
   {
     "url": "tag/VSCodium/index.html",
-    "revision": "68cc2637c775fe4c0be393d251511666"
+    "revision": "94232d61d6527e296f3041841f7b67c2"
   },
   {
     "url": "tag/vue/index.html",
-    "revision": "9795956863212eecd731bef6ba6eb9f3"
+    "revision": "1eba3fb074fcb13318482605d5381de0"
   },
   {
     "url": "thankyou.svg",
@@ -382,18 +382,6 @@ self.__precacheManifest = [
     "revision": "4ca12108a28b243641984cbe07d758a3"
   },
   {
-    "url": "tag/FOSS",
-    "revision": "0f01c456fc68d6bc72cfa5922be928ee"
-  },
-  {
-    "url": "tag/VSCodium",
-    "revision": "1d420d5989e4f3693db930d985185d26"
-  },
-  {
-    "url": "tag/Free%20Software",
-    "revision": "18de7e3bf07897d03696609afeba7dde"
-  },
-  {
     "url": "tag/backend",
     "revision": "ebac8685cd7e7f6e73e8e1c7f8bac267"
   },
@@ -404,6 +392,18 @@ self.__precacheManifest = [
   {
     "url": "tag/expressjs",
     "revision": "505e5226ba14490ba2afade374dafac9"
+  },
+  {
+    "url": "tag/FOSS",
+    "revision": "0f01c456fc68d6bc72cfa5922be928ee"
+  },
+  {
+    "url": "tag/VSCodium",
+    "revision": "1d420d5989e4f3693db930d985185d26"
+  },
+  {
+    "url": "tag/Free%20Software",
+    "revision": "18de7e3bf07897d03696609afeba7dde"
   },
   {
     "url": "blog",
