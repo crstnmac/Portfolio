@@ -56,6 +56,7 @@ module.exports = {
         display: "standalone",
         statusBarStyle: "default",
         manifestPath: "manifest.json",
+        disableServiceWorker: true,
         serviceWorkerPath: "service-worker.js",
         cachedFileTypes: "js,json,css,html,png,jpg,jpeg,svg",
         shortName: "crstnmac",
