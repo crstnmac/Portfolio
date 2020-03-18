@@ -59,7 +59,7 @@ module.exports = {
         display: "standalone",
         statusBarStyle: "default",
         manifestPath: "manifest.json",
-        disableServiceWorker: true,
+        disableServiceWorker: false,
         serviceWorkerPath: "service-worker.js",
         cachedFileTypes: "js,json,css,html,png,jpg,jpeg,svg",
         shortName: "crstnmac",
@@ -73,10 +73,9 @@ module.exports = {
     {
       use: "gridsome-plugin-service-worker",
       options: {
-        precachedRoutes: ["/"],
         cacheOnly: {
-          cacheName: "co-v1",
-          routes: ["/"]
+          cacheName: "nf-v1",
+          routes: ["/", /\.(js|css|png|jpeg)/]
         }
       }
     },
