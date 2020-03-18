@@ -10,7 +10,7 @@
 				<div>
 					<g-link v-if="theme === 'theme-light'" to="/">
 						<!-- <g-image src="../../static/logo.svg" class="w-40" alt="logo" /> -->
-						<p class="light-text text-4xl font-extrabold">crstnmac.me</p>
+						<p class="light-text text-3xl font-extrabold">crstnmac.me</p>
 					</g-link>
 					<g-link v-else to="/">
 						<!-- <g-image
@@ -18,35 +18,49 @@
               class="w-40"
               alt="logo"
             /> -->
-						<p class="dark-text text-4xl font-extrabold">crstnmac.me</p>
+						<p class="dark-text text-3xl font-extrabold">crstnmac.me</p>
 					</g-link>
 				</div>
+
 				<div class="block lg:hidden">
-					<button
-						@click="toggle"
-						class="flex justify-center items-center bg-blue-500 border border-blue-500 h-10 px-5 rounded-full lg:hidden focus:outline-none"
-						aria-label="icon"
-					>
-						<svg
-							class="fill-current text-white h-9 w-4"
-							viewBox="0 0 32 32"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path
-								fill="gray"
-								d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"
-							/>
-						</svg>
-					</button>
+					<ul class="flex align-center">
+						<li>
+							<button
+								class="flex justify-center items-center bg-blue-500 border border-blue-500 h-10 px-5  mr-2 rounded-full lg:hidden focus:outline-none"
+								aria-label="icon"
+							>
+								<theme-switcher :theme="theme" @themeChanged="updateTheme" />
+							</button>
+						</li>
+						<li>
+							<button
+								@click="toggle"
+								class="flex justify-center items-center bg-blue-500 border border-blue-500 h-10 px-5 rounded-full lg:hidden focus:outline-none"
+								aria-label="icon"
+							>
+								<svg
+									class="fill-current text-white h-9 w-4"
+									viewBox="0 0 32 32"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										fill="gray"
+										d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"
+									/>
+								</svg>
+							</button>
+						</li>
+					</ul>
 				</div>
+
 				<ul
-					class="uppercase tracking-wide font-bold w-full block flex-grow lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
+					class="uppercase tracking-wide font-bold w-full block flex-grow lg:flex lg:flex-initial lg:w-auto  items-center mt-8 lg:mt-0"
 					:class="isOpen ? 'block' : 'hidden'"
 				>
 					<li class="mr-8 mb-6 lg:mb-0">
 						<search-input />
 					</li>
-					<li class="mr-8 mb-6 lg:mb-0">
+					<li v-if="isOpen !== true" class="mr-8 mb-6 lg:mb-0">
 						<theme-switcher :theme="theme" @themeChanged="updateTheme" />
 					</li>
 					<li class="mr-8 mb-6 lg:mb-0">

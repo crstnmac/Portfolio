@@ -58,7 +58,7 @@
 				</div>
 
 				<div class="px-2">
-					<div class="flex flex-wrap">
+					<div class="flex flex-wrap ">
 						<div
 							v-for="(project, index) in projects"
 							:key="index"
