@@ -62,6 +62,7 @@ a {
   @apply text-purple-700 font-bold;
 }
 
+
 a:hover {
   @apply text-purple-800;
 }
@@ -120,29 +121,28 @@ nav .active {
   backdrop-filter: blur(30px);
 }
 
-.light-text{
+.light-text {
   text-decoration: none;
   color: var(--textNormal);
-  background: -webkit-gradient(linear,left top,right top,from(#667eea),color-stop(50%,#ba8fff),to(#764ba2));
-  background: linear-gradient(90deg,#667eea 0,#ba8fff 50%,#764ba2);
+  background: -webkit-gradient(linear, left top, right top, from(#667eea), color-stop(50%, #ba8fff), to(#764ba2));
+  background: linear-gradient(90deg, #667eea 0, #ba8fff 50%, #764ba2);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.dark-text{
+.dark-text {
   text-decoration: none;
   color: var(--textNormal);
-  background: -webkit-gradient(linear,left top,right top,from(#667eea),color-stop(50%,#ba8fff),to(#764ba2));
-  background: linear-gradient(90deg,#667eea 0,#ba8fff 50%,#764ba2);
+  background: -webkit-gradient(linear, left top, right top, from(#667eea), color-stop(50%, #ba8fff), to(#764ba2));
+  background: linear-gradient(90deg, #667eea 0, #ba8fff 50%, #764ba2);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.neumorph{
-  border:1px solid rgb(169, 163, 255);
+.neumorph {
+  border: 1px solid rgb(169, 163, 255);
   -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
-

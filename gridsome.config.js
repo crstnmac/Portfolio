@@ -15,8 +15,8 @@ module.exports = {
   siteName: "Criston-Mascarenhas",
   siteDescription: "A simple portfolio.",
   siteUrl: "https://crstnmac.me",
-  plugins: [
-    {
+
+  plugins: [{
       use: "@gridsome/source-filesystem",
       options: {
         path: "blog/**/*.md",
@@ -31,7 +31,10 @@ module.exports = {
           plugins: [
             [
               "gridsome-plugin-remark-shiki",
-              { theme: "Material-Theme-Palenight", skipInline: true }
+              {
+                theme: "Material-Theme-Palenight",
+                skipInline: true
+              }
             ]
           ]
         }
@@ -106,6 +109,9 @@ module.exports = {
       }
     }
   ],
+  chainWebpack: config => {
+    config.resolve.alias.set('@images', '@/assets/images')
+  },
   templates: {
     Tag: "/tag/:id"
   },

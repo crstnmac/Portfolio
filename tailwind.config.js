@@ -73,7 +73,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'Nunito',
+        'Sen',
         'Roboto',
         '-apple-system',
         'BlinkMacSystemFont',
@@ -89,6 +89,7 @@ module.exports = {
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
+        'Space Mono',
         'Menlo',
         'Monaco',
         'Consolas',
