@@ -7,7 +7,7 @@
 			<nav
 				class="container mx-auto flex flex-wrap justify-between items-center py-8"
 			>
-				<div>
+				<div v-scroll-reveal.reset>
 					<g-link v-if="theme === 'theme-light'" to="/">
 						<!-- <g-image src="../../static/logo.svg" class="w-40" alt="logo" /> -->
 						<p class="light-text text-3xl font-extrabold">crstnmac.me</p>
@@ -21,8 +21,7 @@
 						<p class="dark-text text-3xl font-extrabold">crstnmac.me</p>
 					</g-link>
 				</div>
-
-				<div class="block lg:hidden">
+				<div v-scroll-reveal.reset class="block lg:hidden">
 					<ul class="flex align-center">
 						<li>
 							<button
@@ -295,4 +294,21 @@ export default {
 };
 </script>
 
-<style src="../main.css" />
+<style src="../main.css"></style>
+
+<style>
+.slither-enter-active,
+.slither-leave-active {
+	transition: transform 3s;
+}
+
+.slither-enter,
+.slither-leave-to {
+	transform: translateX(-100%);
+}
+
+.slither-enter-to,
+.slither-leave {
+	transform: translateX(0);
+}
+</style>

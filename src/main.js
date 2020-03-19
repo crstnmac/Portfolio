@@ -4,12 +4,9 @@
 import DefaultLayout from "~/layouts/Default.vue";
 import VueScrollTo from "vue-scrollto";
 import VueFuse from "vue-fuse";
+import VueScrollReveal from "gridsome-scroll-reveal";
 
-export default function (Vue, {
-	router,
-	head,
-	isClient
-}) {
+export default function(Vue, { router, head, isClient }) {
 	// Set default layout as a global component
 	Vue.component("Layout", DefaultLayout);
 	Vue.use(VueScrollTo, {
@@ -17,11 +14,20 @@ export default function (Vue, {
 		easing: "ease-in-out"
 	});
 
+	Vue.use(VueScrollReveal, {
+		class: "v-scroll-reveal", // A CSS class applied to elements with the v-scroll-reveal directive; useful for animation overrides.
+		duration: 800,
+		scale: 1,
+		distance: "10px",
+		mobile: false
+	});
+
 	Vue.use(VueFuse);
 
 	head.meta.push({
 		name: "keywords",
-		content: "Gridsome,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS,VCET,Cris,Glug,Infinite,crstnmac"
+		content:
+			"Gridsome,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS,VCET,Cris,Glug,Infinite,crstnmac"
 	});
 
 	head.meta.push({
@@ -36,6 +42,6 @@ export default function (Vue, {
 
 	head.link.push({
 		rel: "stylesheet",
-		href: 'https://fonts.googleapis.com/css?family=Sen:400,700,800'
+		href: "https://fonts.googleapis.com/css?family=Sen:400,700,800"
 	});
 }

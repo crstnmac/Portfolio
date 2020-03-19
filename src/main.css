@@ -146,3 +146,41 @@ nav .active {
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
+
+.slidein-enter-active {
+  animation: slidein 0.2s;
+}
+
+.slidein-leave-active {
+  animation: slidein 0.2s reverse;
+}
+
+@keyframes slidein {
+  from {
+    left: -100%;
+    width: 0%;
+  }
+
+  to {
+    left: 0;
+    width: 80vw;
+  }
+}
+
+.fadein-enter-active {
+  animation: fadein 0.2s;
+}
+
+.fadein-leave-active {
+  animation: fadein 0.2s reverse;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.1;
+  }
+}

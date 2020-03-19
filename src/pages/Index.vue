@@ -5,14 +5,17 @@
 		<div
 			class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16"
 		>
-			<div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
+			<div
+				v-scroll-reveal.reset
+				class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left"
+			>
 				<div class="leading-tight">Criston Mascarenhas</div>
 				<div class="text-purple-700 leading-tight">
 					Full Stack
 					<br />Web Developer
 				</div>
 			</div>
-			<div class="mt-8 sm:mt-0">
+			<div v-scroll-reveal.reset="{ delay: 250 }" class="mt-8 sm:mt-0">
 				<g-image
 					src="../../static/developer.svg"
 					alt="hero"
@@ -23,12 +26,15 @@
 		<!-- end hero -->
 
 		<div class="container-inner mx-auto">
-			<p class="text-lg sm:text-xl">
+			<p v-scroll-reveal.reset class="text-lg sm:text-xl">
 				I'm a Web Developer with 2+ years of experience focused on making Web
 				Applications that load fast, look good and are easy to use.
 			</p>
 
-			<div class="flex justify-between items-center py-6">
+			<div
+				v-scroll-reveal.reset="{ delay: 250 }"
+				class="flex justify-between items-center py-6"
+			>
 				<div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
 					<g-image src="../../static/mind_map.svg" alt="browser" />
 				</div>
@@ -39,12 +45,11 @@
 		</div>
 
 		<!-- projects-start -->
-
 		<div class="overflow-x-hidden">
 			<div
 				class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative"
 			>
-				<h2 class="font-bold mb-6" id="projects">
+				<h2 v-scroll-reveal class="font-bold mb-6" id="projects">
 					Here are some projects I've worked on:
 				</h2>
 
@@ -56,8 +61,7 @@
 						<use xlink:href="#dots-triangle" />
 					</svg>
 				</div>
-
-				<div class="px-2">
+				<div v-scroll-reveal class="px-2">
 					<div class="flex flex-wrap ">
 						<div
 							v-for="(project, index) in projects"
@@ -165,14 +169,14 @@
 						</div>
 					</div>
 				</div>
+
 				<!-- end projects -->
 			</div>
 		</div>
-
 		<!-- projects end -->
 
 		<!-- start get know me -->
-		<div class="overflow-x-hidden border-gray-200 border-b">
+		<div v-scroll-reveal class="overflow-x-hidden border-gray-200 border-b">
 			<div
 				class="get-to-know-me container-inner mx-auto text-xl pb-16 relative"
 			>
@@ -207,7 +211,7 @@
 							href="https://docs.google.com/document/d/1tI2562iPaVNkYwktshri9xxMhqSZp00sp7ASihzAzRQ/edit?usp=sharing"
 							target="_blank"
 						>
-							<div class=" cursor-pointer right-0 py-4 lg:px-4">
+							<div class="cursor-pointer right-0 py-4 lg:px-4">
 								<div
 									class="p-2 bg-purple-800 items-center text-indigo-100 leading-none rounded-full flex lg:inline-flex"
 									role="alert"
@@ -240,7 +244,7 @@
 		<!-- end get know me -->
 
 		<!-- start contact-me -->
-		<div class="overflow-x-hidden">
+		<div v-scroll-reveal class="overflow-x-hidden">
 			<div class="contact-me bg-background-secondary pt-16">
 				<div class="container-inner mx-auto text-xl pb-4 relative">
 					<h2 class="font-bold mb-6" id="contact">Contact me:</h2>
