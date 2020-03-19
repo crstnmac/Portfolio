@@ -444,24 +444,24 @@ export default {
 			{
 				name: "Glug Infinite",
 				imgUrl: "glug.png",
-				url: "https://github.com/crstnmac/glug",
+				url: "http://github.com/crstnmac/glug",
 				about: "A basic GNU Linux Users Club website. Built using gatsby.",
-				demoUrl: "https://gluginfinite.github.io",
+				demoUrl: "gluginfinite.github.io",
 				tag: [{ name: "gatsby" }, { name: "React" }, { name: " GraphQL" }]
 			},
 			{
 				name: "Weamo",
 				imgUrl: "weamo.png",
-				url: "https://github.com/crstnmac/weamo",
+				url: "http://github.com/crstnmac/weamo",
 				about:
 					"A weather app used to know city weather. Made using Angular 8 and OpenWeather API.",
-				demoUrl: "https://gluginfinite.github.io",
+				demoUrl: "http://utility-dashboard-b24c5.firebaseapp.com",
 				tag: [{ name: "Angular" }, { name: "firebase" }]
 			},
 			{
 				name: "Flutter-Clock",
 				imgUrl: "flutter-clock.jpeg",
-				url: "https://github.com/crstnmac/clock-flutter",
+				url: "http://github.com/crstnmac/clock-flutter",
 				about: "A clock made using flutter for Flutter-Lenovo Challenge.",
 				tag: [{ name: "Flutter" }]
 			}
