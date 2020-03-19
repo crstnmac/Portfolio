@@ -446,7 +446,7 @@ export default {
 				imgUrl: "glug.png",
 				url: "http://github.com/crstnmac/glug",
 				about: "A basic GNU Linux Users Club website. Built using gatsby.",
-				demoUrl: "gluginfinite.github.io",
+				demoUrl: "http://gluginfinite.github.io",
 				tag: [{ name: "gatsby" }, { name: "React" }, { name: " GraphQL" }]
 			},
 			{
