@@ -359,7 +359,7 @@ self.__precacheManifest = [
   },
   {
     "url": "search.json",
-    "revision": "0ba85b120cc3e43502c385b96de443a0"
+    "revision": "254dde9340560c0f210cb136ae9b61fb"
   },
   {
     "url": "success/index.html",
@@ -414,6 +414,18 @@ self.__precacheManifest = [
     "revision": "28f25f53f5ce5d7c39f9df9ad1964986"
   },
   {
+    "url": "tag/frontend",
+    "revision": "0e1248d232cf19b554e28e841bfa4f3c"
+  },
+  {
+    "url": "tag/coding",
+    "revision": "08845b3e464c17bbddd8eaf49406725b"
+  },
+  {
+    "url": "tag/vue",
+    "revision": "4ca12108a28b243641984cbe07d758a3"
+  },
+  {
     "url": "tag/backend",
     "revision": "ebac8685cd7e7f6e73e8e1c7f8bac267"
   },
@@ -436,18 +448,6 @@ self.__precacheManifest = [
   {
     "url": "tag/Free%20Software",
     "revision": "18de7e3bf07897d03696609afeba7dde"
-  },
-  {
-    "url": "tag/frontend",
-    "revision": "0e1248d232cf19b554e28e841bfa4f3c"
-  },
-  {
-    "url": "tag/coding",
-    "revision": "08845b3e464c17bbddd8eaf49406725b"
-  },
-  {
-    "url": "tag/vue",
-    "revision": "4ca12108a28b243641984cbe07d758a3"
   },
   {
     "url": "blog",
