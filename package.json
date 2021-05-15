@@ -27,7 +27,7 @@
 	},
 	"devDependencies": {
 		"gridsome-plugin-manifest": "^0.3.4",
-		"gridsome-plugin-service-worker": "^0.1.4",
+		"gridsome-plugin-service-worker": "0.2.8",
 		"tailwindcss": "^1.2.0"
 	}
 }
