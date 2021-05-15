@@ -23,7 +23,7 @@
 		"gridsome-scroll-reveal": "^1.0.11",
 		"lodash.pick": "^4.4.0",
 		"vue-fuse": "^2.2.0",
-		"vue-scrollto": "^2.17.1"
+		"vue-scrollto": "2.20.0"
 	},
 	"devDependencies": {
 		"gridsome-plugin-manifest": "^0.3.4",
